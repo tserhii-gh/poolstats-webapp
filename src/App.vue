@@ -9,15 +9,8 @@ document.body.classList.toggle(
 </script>
 
 <template>
-  <header>
-    <div>
-      <h1 class="bg-blue-500 text-white p-5">Header</h1>
-    </div>
-
-  </header>
-
-  <main>
-    <h1 class="bg-blue-200 text-black ">Main</h1>
+  <main class="flex min-h-screen dark:bg-neutral-900 dark:text-neutral-200">
+    <h1 class="bg-blue-200 text-black dark:bg-blue-700 dark:text-neutral-300">Main</h1>
   </main>
 </template>
 
